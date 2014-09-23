@@ -5,6 +5,7 @@ Aula Inicial
 * Arquitetura android.
 * Processo de compilação de um aplicativo android.
 * O preciso para implementar um HelloWord?
+* Organização de um projeto android.
 * Componentes android.
   * Activity
     * Funcionamento
