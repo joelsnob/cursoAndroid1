@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Layout Android</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cadastro_pessoa">Cadastro Pessoa Activity</string>
+    <string name="title_activity_cadastro_estabelecimento">CadastroEstabelecimentoActivity</string>
+
+</resources>
