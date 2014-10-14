@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+	<LinearLayout
+	    android:layout_marginBottom="5dp"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+		<Button
+		    android:id="@+id/btnNovo"
+		    android:layout_marginLeft="10dp"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/novo" 
+		    android:onClick="criarDespesaOnClick" />
+
+		<Button
+		    android:id="@+id/btnEditar"
+   		    android:layout_marginLeft="10dp"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:onClick="editarDespesaOnClick"
+		    android:text="@string/editar" />
+
+		<Button
+		    android:id="@+id/btnExcluir"
+		    android:layout_marginLeft="10dp"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/excluir" 
+		    android:onClick="excluirDespesaOnClick" />		
+	 </LinearLayout>
+	 
+	 <ListView
+	     android:id="@+id/lstDespesas"
+	     android:layout_width="match_parent"
+	     android:layout_height="match_parent"/>
+	
+</LinearLayout>
